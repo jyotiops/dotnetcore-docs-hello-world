@@ -10,7 +10,6 @@ public class IndexModel : PageModel
 
     public string OSVersion { get { return RuntimeInformation.OSDescription; }  }
 
-    private TelemetryClient telemetry = new TelemetryClient();
     
     private readonly ILogger<IndexModel> _logger;
 
